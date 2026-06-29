@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Uncial+Antiqua&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .font-gothic {
+        font-family: 'MedievalSharp', cursive;
+    }
+    .font-gothic-title {
+        font-family: 'Uncial Antiqua', cursive;
+    }
+}
